@@ -5,6 +5,8 @@ docker build \
     --tag "neovim:0.1" \
     .
 
+docker image prune --force
+
 docker run \
     --interactive \
     --tty \
